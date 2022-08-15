@@ -1,0 +1,21 @@
+defaults:
+    - task: BYOL-pointnet-cls
+    - task_model: ${defaults.0.task}
+
+hydra:
+  run:
+    dir: /mnt/ssd/home/junxuan
+
+gpus:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+optimizer: ??
+
+task_model: ??
+
+distrib_backend: dp
+
