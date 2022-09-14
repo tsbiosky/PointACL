@@ -3,7 +3,7 @@
 
 
 This is the official code implementation for the paper "PointACL:Adversarial Contrastive Learning for Robust Point Clouds Representation under Adversarial Attack" 
-
+![image](https://github.com/tsbiosky/PointACL/blob/master/overview%203.png)
 
 ### Downstream Tasks
 
